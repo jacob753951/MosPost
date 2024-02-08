@@ -18,49 +18,225 @@
       </a>
       <div class="search-bar">
         <input type="text" placeholder="buscar..." />
-        <button>
+        <button class="search-bar-buttons">
           <span class="material-icons">micro</span>
-          <button><span class="material-icons">search</span></button>
+          <button class="search-bar-buttons">
+            <span class="material-icons">search</span>
+          </button>
         </button>
       </div>
       <nav class="log-in">
-        <button>login</button>
-        <button>crear cuenta</button>
+        <button class="login-button">login</button>
+        <button class="cuetna-button">crear cuenta</button>
       </nav>
     </header>
     <div class="content">
       <aside class="asidei-izquierdo">
-        <div></div>
-        <div>
+        <div class="descripcion">
+          <h1>
+            MosPost es una pagina para postear libremente lo que tu desees
+            cuando lo desees
+          </h1>
+          <button class="login-button">login</button>
+          <button class="cuetna-button">crear cuenta</button>
+        </div>
+        <hr />
+        <div class="iconos">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Reading List</a></li>
-            <li><a href="#">Podcasts</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Tags</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Forem Shop</a></li>
-            <li><a href="#">Advertise on DEV</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Guides</a></li>
-            <li><a href="#">Software comparasions</a></li>
+            <li>
+              <span class="material-icons">home</span><a href="#"> Home</a>
+            </li>
+            <li>
+              <span class="material-icons">search</span><a href="#">google</a>
+            </li>
+            <li>
+              <span class="material-icons">subscriptions </span
+              ><a href="#">Youtube</a>
+            </li>
+            <li>
+              <span class="material-icons">gamepad </span><a href="#">LOL</a>
+            </li>
+            <li>
+              <span class="material-icons">cookie </span
+              ><a href="#">Recetas de cocina</a>
+            </li>
+            <li>
+              <span class="material-icons">work </span><a href="#">FAQ</a>
+            </li>
           </ul>
         </div>
+        <hr />
+        <section>
+          <h2>POPULAR TAGS</h2>
+          <div>
+            <p>#HTML</p>
+            <p>#CSS</p>
+            <p>#LOL</p>
+            <p>#ALITASALCARBON/p></p>
+            <p>#MUYINTERSANTE</p>
+            <p>#AUTOS</p>
+            <p>#TRABAJO</p>
+          </div>
+        </section>
       </aside>
-
+      <!-- parte central donde puden postear -->
       <main class="cuerpo">
-        <div class="post">
-          <img
-            class="imgc"
-            src="https://www.panteonrococo.com/wp-content/uploads/2020/02/LogoPicPagina.png"
-            alt="imagen aleatoria"
-          />
-          <small><p>Jacob martinez</p></small>
-          <input type="date" value="2017-06-01" />
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">Jacob martinez</a>
+            <time datetime=""></time>
+          </div>
 
-          <a href="#"><h1>Me gusta mucho pantion rococo</h1></a>
-        </div>
+          <div class="post-post">
+            <h1><a href="https://www.youtube.com/watch?v=4w2ezuX2iJw">Panteon Rococo es uno de los mas escuchados a nivel  nacional</a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button style="color: ;"></button>
+          </div>
+        </section>
+
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">Danis Hernandez</a>
+            <time datetime=""></time>
+          </div>
+
+          <div class="post-post">
+            <h1><a href="https://www.youtube.com/watch?v=szeA9tvItJY">Las canciones de Morat rifan</a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button></button>
+          </div>
+        </section>
+
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">Don Richrd</a>
+            <time datetime=""></time>
+          </div>
+
+          <div class="post-post">
+          <h1><a href="https://www.youtube.com/shorts/NxDtzSd789w">Que golaso se la rifaron </a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button></button>
+          </div>
+        </section>
+
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">concuñao</a>
+            <time datetime=""></time>
+          </div>
+
+          <div class="post-post">
+          <h1><a href="https://www.youtube.com/shorts/4InwVnKfy28">No invetes estubo <strong>Bien Rudo</strong> </a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button></button>
+          </div>
+        </section>
+
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">Cuñada</a>
+            <time datetime=""></time>
+          </div>
+
+          <div class="post-post">
+          <h1><a href="https://www.vvsupremo.com/recipe/chilaquiles-con-salsa-verde/?lang=es">Unos chilaquiles o que???  </a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button></button>
+          </div>
+        </section>
+
+        <section class="post-general">
+          <div class="post-contacto">
+            <img src="" alt="" />
+            <a href="">Dueguita</a>
+            <time datetime=""></time>
+          </div>
+
+          <div class="post-post">
+          <h1><a href="https://www.tiktok.com/@sofia.arianda.aguilar/video/7225321987919514926">Deja a mi hija jacob , no es cierto XD </a></h1>
+          </div>
+
+          <div class="post-tags">
+            <a href="">#musica </a>
+            <a href="">#paneton</a>
+            <a href="">#yuju</a>
+          </div>
+
+          <div class="post-reactiosn">
+            <a href="">reactions</a>
+            <a href="">comets</a>
+            <time datetime=""></time>
+            <button></button>
+          </div>
+        </section>
+
+
+
+        
+
+        
+
       </main>
 
       <aside class="aside-derecho">
