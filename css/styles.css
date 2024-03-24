@@ -31,14 +31,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 
   }
 
   /* barra de navegacion */
   .header{
     width: 100%;
-    background-color:  rgba(187, 172, 194, 0.673);
+    background-color:  rgba(78, 120, 227, 0.386);
     box-shadow: darkblue;
     display: flex;
     justify-content: space-around;
@@ -84,9 +84,7 @@ header button{
 }
 
 
-.log-in{
-    flex: ;
-}
+
 
   /* cuerpo de post */
 
@@ -118,20 +116,68 @@ li a{
 }
 
 
-/* asaid derecho */
+/* asaids derecho */
 .aside-derecho{
     width: 25%;
-    border: solid red;
+    border: solid rgb(0, 13, 255);
     padding: 1vh;
+    box-shadow:  15px 15px 15px;
 
 
 }
+.publicidad{
+  height: 20vw;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  
+}
+.publicidad-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border:  1px solid black;
+  height: 10vw;
+}
+.publicidad-slide button{
+  height: 10%;
+}
+
+.publicidad-slide img{
+  height: 65%;
+
+}
+.contactos{
+  height: 3vw;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+.contactos img{
+  border-radius: 50%;
+  height: 80%;
+}
+
+.asaid-texto-titulos{
+font-size: 2em;
+margin: 0;
+padding: 1px;
+border: 1px solid green;
+}
+
 /* post */
 .cuerpo{
     width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
     
     border: solid red;
-    gap: 80px;
+    gap: 15px;
+  
 
 }
 main{
@@ -145,10 +191,6 @@ main .post {
     flex-direction: column;
   
 }
- main .post img{
-    height: 50%;
- }
-
  main section a{
   text-decoration: none;
 
@@ -157,8 +199,13 @@ main .post {
  .post-general{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
-  margin: 15px;
+  text-align: center;
+  height: 11vw;
+  height: auto;
+  width: 40vw;
+  background-color: beige;
   
  }
  main section .post-reactiosn{
@@ -167,4 +214,25 @@ main .post {
  }
  section{
   border: solid green;
+ }
+
+ .post-contacto img{
+border-radius: 50%;
+width: 5%;
+margin: 5px;
+ }
+ .post-contacto{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+ }
+ .post-post{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 90%;
+  border: 1px solid red;
+  margin: 15px;
+  background-color: rgba(199, 255, 255, 0.241);
  }
